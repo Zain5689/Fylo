@@ -1,9 +1,11 @@
+import pro from "/src/assets/illustration-stay-productive.png";
+import arrow from "/src/assets/icon-arrow.svg";
 const Productive = () => {
   return (
     <section>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 px-[10px]  sm:px-[50px] py-[100px] gap-[30px] element-center">
-          <img src="/src/assets/illustration-stay-productive.png" alt="" />
+          <img src={pro} alt="" />
           <div>
             <h3 className="font-semibold mb-2 text-[40px]">
               Stay Productive <br></br> whereever you are
@@ -23,7 +25,7 @@ const Productive = () => {
             <a className="flex gap-[15px] text-[#62E0D9] ">
               See Fylo How Work
               <img
-                src="/src/assets/icon-arrow.svg"
+                src={arrow}
                 width={30}
                 alt=""
                 className="animate-moveRight"

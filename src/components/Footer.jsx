@@ -1,12 +1,17 @@
+import img from "/src/assets/logo.svg";
+import icon from "/src/assets/icon-location.svg";
+import phone from "/src/assets/icon-phone.svg";
+import email from "/src/assets/icon-email.svg";
+
 const Footer = () => {
   return (
     <footer className="pt-32 pb-5">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="me-10">
-            <img src="/src/assets/logo.svg" alt="Logo" className="mb-5" />
+            <img src={img} alt="Logo" className="mb-5" />
             <div className="flex  gap-4 items-start">
-              <img src="/src/assets/icon-location.svg" alt="Location" />
+              <img src={icon} alt="Location" />
               <p className="pe-3 text-sm opacity-60">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Tempora, voluptatibus? adipisicing elit. Tempora,
@@ -15,11 +20,11 @@ const Footer = () => {
           </div>
           <div>
             <p className="flex gap-4 mb-5">
-              <img src="/src/assets/icon-phone.svg" alt="Location" />
+              <img src={phone} alt="Location" />
               +20 12 89 63 48 91
             </p>
             <p className="flex gap-4 mb-5">
-              <img src="/src/assets/icon-email.svg" alt="Location" />
+              <img src={email} alt="Location" />
               example@gmail.com
             </p>
           </div>

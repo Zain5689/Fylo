@@ -1,21 +1,24 @@
 import Person from "../../components/Person";
+import img1 from "./../../assets/profile-1.jpg";
+import img2 from "./../../assets/profile-2.jpg";
+import img3 from "./../../assets/profile-3.jpg";
 
 const Testimnuals = () => {
   const persons = [
     {
-      img: "/src/assets/profile-1.jpg",
+      img: img1,
       title: "Access your AnyWay",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicinelit. Sunt=animi debitis, quae molestiae iste quos dolorem magni quia, ducimus optio eligendi repellendus mollitia",
       descs: "Lorem ipsum ipsum",
     },
     {
-      img: "/src/assets/profile-2.jpg",
+      img: img2,
       title: "Collaboration",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicinelit. Sunt=animi debitis, quae molestiae iste quos dolorem magni quia, ducimus optio eligendi repellendus mollitia",
       descs: "Lorem ipsum ipsum",
     },
     {
-      img: "/src/assets/profile-3.jpg",
+      img: img3,
       title: "Any File",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicinelit. Sunt=animi debitis, quae molestiae iste quos dolorem magni quia, ducimus optio eligendi repellendus mollitia",
       descs: "Lorem ipsum ipsum",
