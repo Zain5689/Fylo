@@ -1,12 +1,10 @@
+import img from "/src/assets/illustration-intro.png";
+
 const Landing = () => {
   return (
     <div className="container flex flex-col justify-center items-center h-screen">
       <div className="pt-[100px] w-[865px] max-w-full mx-auto text-center">
-        <img
-          src="/src/assets/illustration-intro.png"
-          alt="illustration-intro"
-          className="mb-[20px] mx-auto"
-        />
+        <img src={img} alt="illustration-intro" className="mb-[20px] mx-auto" />
 
         <div className="w-[600px] max-w-full mx-auto">
           <h2 className="font-semibold text-20px sm:text-[30px] mb-[15px]">
